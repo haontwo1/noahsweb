@@ -1,0 +1,47 @@
+javascript:document.write(`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Webpage Viewer</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+    }
+    #viewer {
+      width: 100%;
+      height: 80vh;
+      border: 2px solid #333;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Noahs Test Browser</h1>
+  <input type="text" id="urlInput" placeholder="Enter URL or command" style="width:70%">
+  <button onclick="loadPage()">Open</button>
+
+  <iframe id="viewer"></iframe>
+
+  <script>
+    function loadPage() {
+      const input = document.getElementById("urlInput").value.trim();
+
+      if (input.toLowerCase() === "function1") {
+        document.write("<h2>function1 executed!</h2>");
+        return;
+      }
+
+      if (input.toLowerCase() === "function2") {
+        document.write("<h1>HI</h1>");
+        return;
+      }
+
+
+      document.getElementById("viewer").src = input;
+    }
+  </script>
+</body>
+</html>
+`);
