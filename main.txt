@@ -38,8 +38,8 @@ javascript:document.write(`
         return;
       }
 
-      if (input.toLowerCase() === "admin7193") {
-        document.write("<title>hello Noah</title>");
+if (input.toLowerCase() === "admin7193") {
+        document.write("<h1>hello Noah</h1>");
         return;
       }
 
