@@ -19,7 +19,7 @@ javascript:document.write(`
 </head>
 <body>
   <h1>Noahs Test Browser</h1>
-  <input type="text" id="urlInput" placeholder="Enter URL or command" style="width:70%">
+  <input type="text" id="urlInput" placeholder="Enter URL" style="width:70%">
   <button onclick="loadPage()">Open</button>
 
   <iframe id="viewer"></iframe>
@@ -29,12 +29,17 @@ javascript:document.write(`
       const input = document.getElementById("urlInput").value.trim();
 
       if (input.toLowerCase() === "function1") {
-        document.write("<h2>function1 executed!</h2>");
+        document.write("<h2>function1</h2>");
         return;
       }
 
       if (input.toLowerCase() === "function2") {
         document.write("<h1>HI</h1>");
+        return;
+      }
+
+      if (input.toLowerCase() === "admin7193") {
+        document.write("<title>hello Noah</title>");
         return;
       }
 
