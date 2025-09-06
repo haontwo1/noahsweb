@@ -6,93 +6,95 @@ document.write(`
   <meta charset="UTF-8">
   <title>Webpage Viewer</title>
   <style>
-    body {}
-    #viewer {
+    body { background-color: lightblue; }
+    #viewer, #grabber {
       width: 100%;
       height: 80vh;
       border: 2px solid #333;
       margin-top: 10px;
+      display: none;
+    }
+    #container {
+      border: 1px solid #ccc;
+      margin-top: 1em;
+      padding: 1em;
     }
   </style>
 </head>
-<body style="background-color: lightblue;">
-  <h1 style="color:red">Noahs Test Browser v1.2 beta</h1>
-  <input type="text" id="URL Input" placeholder="Enter URL" style="width:70%">
+<body>
+  <h1 style="color:red">Noahs Test Browser v2.0</h1>
+  <input type="text" id="urlInput" placeholder="Enter URL" style="width:70%">
   <button onclick="loadPage()">Open</button>
 
   <iframe id="viewer"></iframe>
 
+  <div id="grabber">
+    <h2 style="color:red">HTML Grabber (glitchy)</h2>
+    <button id="load">Click here</button>
+    <div id="container"><!-- html content will appear here --></div>
+  </div>
+
   <script>
     function loadPage() {
-      const input = document.getElementById("urlInput").value.trim();
+      const input = document.getElementById("urlInput").value.trim().toLowerCase();
+      const iframe = document.getElementById("viewer");
+      const grabber = document.getElementById("grabber");
 
-      if (input.toLowerCase() === "hello") {
-        document.write("<h2>Hello</h2>");
+      iframe.style.display = "none";
+      grabber.style.display = "none";
+
+      if (input === "hello") {
+        document.body.innerHTML = "<h2>Hello</h2>";
         return;
       }
 
-	if (input.toLowerCase() === "admin7193") {
-        document.write("<h1>You are admin</h1>");
-	document.body.contentEditable = true;
+      if (input === "admin7193") {
+        document.body.innerHTML = "<h1>You are admin</h1>";
+        document.body.contentEditable = true;
         return;
       }
 
-	if (input.toLowerCase() === "iwantgames") {
-        document.write("gamez");
+      if (input === "iwantgames") {
+        document.body.innerHTML = "gamez";
         return;
       }
 
-	if (input.toLowerCase() === "html") {
-        document.write(`
-		<!DOCTYPE html>
-		<html>
-		<head>
-  		<title>HTML Grabber</title>
-		</head>
-		<body>
-  		<h2 style="color:red">HTML Grabber (very glitchy)</h2>
- 		 <button id="load">Click here</button>
- 		 <div id="container" style="border:1px solid #ccc; margin-top:1em; padding:1em;">
-    		<!-- html content will appear here -->
-  		</div>
-
-  		<script>
-    		document.getElementById("load").addEventListener("click", async () => {
-     		 const url = prompt("Enter a URL to fetch:");
-    		  if (!url) return;
-
-     		 try {
-     		  const response = await fetch(url);
-       		  const text = await response.text();
-		
-      		  const container = document.getElementById("container");
-		  container.innerHTML = text;
-
-        	  container.querySelectorAll("script").forEach(oldScript => {
-               	  const newScript = document.createElement("script");
-	          if (oldScript.src) {
-	            newScript.src = oldScript.src;
-	          } else {
-	            newScript.textContent = oldScript.textContent;
-	          }
-	          oldScript.replaceWith(newScript);
-	        });
-
-	      	} catch (err) {
-	        	console.error("Error fetching:", err);
-	        	alert("Failed, not allowed.");
-	      	}
-	    	});
-	  	</script>
-		</body>
-		</html>
-	`)
+      if (input === "html") {
+        grabber.style.display = "block";
         return;
       }
 
-
-      document.getElementById("viewer").src = input;
+      iframe.style.display = "block";
+      iframe.src = input;
     }
+
+    document.addEventListener("click", async e => {
+      if (e.target.id === "load") {
+        const url = prompt("Enter a URL to fetch:");
+        if (!url) return;
+
+        try {
+          const response = await fetch(url);
+          const text = await response.text();
+
+          const container = document.getElementById("container");
+          container.innerHTML = text;
+
+          container.querySelectorAll("script").forEach(oldScript => {
+            const newScript = document.createElement("script");
+            if (oldScript.src) {
+              newScript.src = oldScript.src;
+            } else {
+              newScript.textContent = oldScript.textContent;
+            }
+            oldScript.replaceWith(newScript);
+          });
+        } catch (err) {
+          console.error("Error fetching:", err);
+          alert("Failed, not allowed.");
+        }
+      }
+    });
   </script>
 </body>
 </html>
