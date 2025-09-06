@@ -1,4 +1,5 @@
-javascript:document.write(`
+javascript:document.body.innerHTML = '';
+document.write(`
 <!DOCTYPE html>
 <html lang="en">
 <head>
