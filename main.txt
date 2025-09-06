@@ -15,8 +15,8 @@ javascript:document.write(`
   </style>
 </head>
 <body style="background-color: lightblue;">
-  <h1>Noahs Test Browser v1.2 beta</h1>
-  <input type="text" id="urlInput" placeholder="Enter URL" style="width:70%">
+  <h1 style="color:red">Noahs Test Browser v1.2 beta</h1>
+  <input type="text" id="URL Input" placeholder="Enter URL" style="width:70%">
   <button onclick="loadPage()">Open</button>
 
   <iframe id="viewer"></iframe>
