@@ -1,4 +1,4 @@
-javascript:document.body.innerHTML = '';
+javascript:document.open();
 document.write(`
 <!DOCTYPE html>
 <html lang="en">
