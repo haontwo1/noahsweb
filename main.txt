@@ -42,6 +42,54 @@ document.write(`
         return;
       }
 
+	if (input.toLowerCase() === "html") {
+        document.write(`
+		<!DOCTYPE html>
+		<html>
+		<head>
+  		<title>HTML Grabber</title>
+		</head>
+		<body>
+  		<h2 style="color:red">HTML Grabber (very glitchy)</h2>
+ 		 <button id="load">Click here</button>
+ 		 <div id="container" style="border:1px solid #ccc; margin-top:1em; padding:1em;">
+    		<!-- html content will appear here -->
+  		</div>
+
+  		<script>
+    		document.getElementById("load").addEventListener("click", async () => {
+     		 const url = prompt("Enter a URL to fetch:");
+    		  if (!url) return;
+
+     		 try {
+     		  const response = await fetch(url);
+       		  const text = await response.text();
+		
+      		  const container = document.getElementById("container");
+		  container.innerHTML = text;
+
+        	  container.querySelectorAll("script").forEach(oldScript => {
+               	  const newScript = document.createElement("script");
+	          if (oldScript.src) {
+	            newScript.src = oldScript.src;
+	          } else {
+	            newScript.textContent = oldScript.textContent;
+	          }
+	          oldScript.replaceWith(newScript);
+	        });
+
+	      	} catch (err) {
+	        	console.error("Error fetching:", err);
+	        	alert("Failed, not allowed.");
+	      	}
+	    	});
+	  	</script>
+		</body>
+		</html>
+	`)
+        return;
+      }
+
 
       document.getElementById("viewer").src = input;
     }
