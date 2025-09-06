@@ -23,7 +23,7 @@ document.write(`
 </head>
 <body>
   <h1 style="color:red">Noahs Test Browser v2.0</h1>
-  <input type="text" id="urlInput" placeholder="Enter URL" style="width:70%">
+  <input type="text" id="urlInput" placeholder="URL, include https://www." style="width:70%">
   <button onclick="loadPage()">Open</button>
 
   <iframe id="viewer"></iframe>
