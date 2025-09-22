@@ -4,19 +4,11 @@ document.write(`
 <head>
     <title>Noahs Website</title>
 <style>
-button {
-    padding: 50px 100px;
-    background-color: #0000ee;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 </style>
 </head>
 <body style="background-color: lightblue;">
-    <h1 style="color:blue; font-size:50px; font-family:Arial;">Noahs Browser 3.0</h1>
-    <button type="button" style="font-size:50px;" onclick="window.location.href='https://108.181.4.237/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LblJjeE0zbjdDVGR3dmJUcjZGNnRRcDhpbkQzcklZaFNsTmdqMTVWZHhhOHVFV1dIT293TDFUOUNhMmU2ZmpuZjNNem44ckFKMFBUNm5CaGtKZ3R3K2s9&r=aHR0cHM6Ly8xMDguMTgxLjQuMjM3Lz9fX2Nwbz1hSFIwY0hNNkx5OWxaR2RsWkdOcGNtTnNaWE11WTI5dA%3D%3D&__cpo=1';">Magic Google</button>
+    <h1 style="color:blue; font-size:50px; font-family:Arial;">Noahs webpage</h1>
+    <p><a href="https://108.181.4.237/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LblJjeE0zbjdDVGR3dmJUcjZGNnRRcDhpbkQzcklZaFNsTmdqMTVWZHhhOHVFV1dIT293TDFUOUNhMmU2ZmpuZjNNem44ckFKMFBUNm5CaGtKZ3R3K2s9&r=aHR0cHM6Ly8xMDguMTgxLjQuMjM3Lz9fX2Nwbz1hSFIwY0hNNkx5OWxaR2RsWkdOcGNtTnNaWE11WTI5dA%3D%3D&__cpo=1">Web Browser</a></p>
 </body>
 </html>
 `);
