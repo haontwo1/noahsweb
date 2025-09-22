@@ -16,7 +16,10 @@ button {
 </head>
 <body style="background-color: lightblue;">
     <h1 style="color:blue; font-size:50px; font-family:Arial;">Noahs Browser 3.0</h1>
-    <button type="button" style="font-size:50px;" onclick="window.location.href='https://199.71.214.121/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9Lc09qRUYzbmxpbzJxdnFlQVg2UEhjQms5a0FQNVFGRGF0VmlZYmVSRGg0WDlkQUlZM2ROWGgvQW1sUVFtbDVJSnhBMmpmTWZycHJRbWRnOW1CS0c3THM9&r=aHR0cHM6Ly8xOTkuNzEuMjE0LjEyMS8%2FX19jcG89YUhSMGNITTZMeTkzZDNjdVoyOXZaMnhsTG1OdmJR&__cpo=1';">Magic Google</button>
+    <button type="button" style="font-size:50px;" onclick="window.location.href='
+https://108.181.4.237/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LblJjeE0zbjdDVGR3dmJUcjZGNnRRcDhpbkQzcklZaFNsTmdqMTVWZHhhOHVFV1dIT293TDFUOUNhMmU2ZmpuZjNNem44ckFKMFBUNm5CaGtKZ3R3K2s9&r=aHR0cHM6Ly8xMDguMTgxLjQuMjM3Lz9fX2Nwbz1hSFIwY0hNNkx5OWxaR2RsWkdOcGNtTnNaWE11WTI5dA%3D%3D&__cpo=1
+';">Magic Google</button>
 </body>
 </html>
 `);
+
