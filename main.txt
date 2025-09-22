@@ -8,7 +8,8 @@ document.write(`
 </head>
 <body style="background-color: lightblue;">
     <h1 style="color:blue; font-size:50px; font-family:Arial;">Noahs webpage</h1>
-    <p><a href="https://108.181.4.237/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LblJjeE0zbjdDVGR3dmJUcjZGNnRRcDhpbkQzcklZaFNsTmdqMTVWZHhhOHVFV1dIT293TDFUOUNhMmU2ZmpuZjNNem44ckFKMFBUNm5CaGtKZ3R3K2s9&r=aHR0cHM6Ly8xMDguMTgxLjQuMjM3Lz9fX2Nwbz1hSFIwY0hNNkx5OWxaR2RsWkdOcGNtTnNaWE11WTI5dA%3D%3D&__cpo=1">Web Browser</a></p>
+    <p><a href="https://108.181.90.129/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LbFdZV3N1a2lzaExVRTVNRHNobU5jNDRHYXdEYndtOEkvOVNQNDRsaWI5aktKV1V1WVZXMXpObXRNS3h3eStXOGdPRE9tSkxTZXRBcjZRR1ZUK2cvd1E9&r=aHR0cHM6Ly8xMDguMTgxLjkwLjEyOS8%2FX19jcG89YUhSMGNITTZMeTkzZDNjdVkyOXZiRzFoZEdobllXMWxjeTVqYjIw&__cpo=1">Games</a></p>
 </body>
 </html>
 `);
+
