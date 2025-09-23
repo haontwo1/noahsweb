@@ -8,9 +8,9 @@ document.write(`
 </head>
 <body style="background-color: lightblue;">
     <h1 style="color:blue; font-size:50px; font-family:Arial;">Noahs webpage</h1>
-    <p><a href="https://108.181.34.177/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LbkxDcEYrazN0eEJoOEFkODh2NUxQUkJzVTNsaVZWZUlscTV6UzdIV1lYSXFobXprdHZFNS9mMVR5M1hsNjVLTnlRbkQwbkVaWTBlelFabWF0b2FWQ009&r=aHR0cHM6Ly8xMDguMTgxLjM0LjE3Ny8%2FX19jcG89YUhSMGNITTZMeTkzZDNjdVkyOXZiRzFoZEdobllXMWxjeTVqYjIw&__cpo=1">Games</a></p>
-    <p><a href="https://108.181.6.89/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LZzJIbWdWZTl2U3prUWFvUncrUWlJU0lUYkhKM2VmVkFNVEQ0UUJPd1JWaDdWSTFoejVLK0xoNEZHQzhFVmJhRXVqdE0rVWM1dkhtNkJsNFEwWFZlaDA9&r=aHR0cHM6Ly8xMDguMTgxLjYuODkvP2tvPXMmX19jcG89YUhSMGNITTZMeTl6ZEdGeWRDNWtkV05yWkhWamEyZHZMbU52YlE%3D&__cpo=1">Web Browser</a></p>
-    <p><a href="https://108.181.43.67/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LaEMyNG1oZnRLNGc4dlFmL21ua3BCdDVQelRHUTJycEZ0cWZOTXBSZGlnbkMrcSt3NzNObVdFK2lqTWorb0MxMmNjd0UzRUhYMG9ldTF2RWxlRHE3bkU9&r=aHR0cHM6Ly8xMDguMTgxLjQzLjY3Lz9fX2Nwbz1hSFIwY0hNNkx5OTNkM2N1ZVc5MWRIVmlaUzVqYjIw&__cpo=1">Youtube</a></p>
+    <p><a href="https://108.181.34.45/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LcmduSUYwQWdsWTR0WWE1ZHI2SWRGc3VxZSt2LzJaUkhuc3BzZVBmZVFySmJMTy9pb2VUR2U3STJqRW9nSzRXNmMxaVJoa2QxVUQwUFVaVWVpWmxrRFU9&r=aHR0cHM6Ly8xMDguMTgxLjM0LjQ1Lz9fX2Nwbz1hSFIwY0hNNkx5OTNkM2N1WTI5dmJHMWhkR2huWVcxbGN5NWpiMjA%3D&__cpo=1">Games</a></p>
+    <p><a href="https://108.181.32.57/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LcjZ5QTRXcFo4NFNSSWxicWEzL2xuWkMxN29CVVJhZFBTYWRQY2ptVm1JQkVsdkw4b2pDak5zbEJyUVR2T3BXRGxkRi9jQ0ZlM29Jbjg3Zm95dXgwSkk9&r=aHR0cHM6Ly8xMDguMTgxLjMyLjU3Lz9rbz1zJl9fY3BvPWFIUjBjSE02THk5emRHRnlkQzVrZFdOclpIVmphMmR2TG1OdmJR&__cpo=1">Web Browser</a></p>
 </body>
 </html>
 `);
+
