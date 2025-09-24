@@ -8,10 +8,11 @@ document.write(`
 </head>
 <body style="background-color: lightblue;">
     <h1 style="color:blue; font-size:50px; font-family:Arial;">Noahs webpage</h1>
-    <p><a href="https://108.181.34.45/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LcmduSUYwQWdsWTR0WWE1ZHI2SWRGc3VxZSt2LzJaUkhuc3BzZVBmZVFySmJMTy9pb2VUR2U3STJqRW9nSzRXNmMxaVJoa2QxVUQwUFVaVWVpWmxrRFU9&r=aHR0cHM6Ly8xMDguMTgxLjM0LjQ1Lz9fX2Nwbz1hSFIwY0hNNkx5OTNkM2N1WTI5dmJHMWhkR2huWVcxbGN5NWpiMjA%3D&__cpo=1">Games</a></p>
+    <p><a href="https://108.181.11.39/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LdFVyK2taV1ZqaFFsdGFVdUtMUUMwRjNOODlrMXFWQWhnV3BBWFFJRjZRNFFBK2xlVkc0b241SnZSK1p5dy9yQjFyWW9sTCtoc3BSaVNuaVMzVEpuY1U9&r=aHR0cHM6Ly8xMDguMTgxLjExLjM5Lz9fX2Nwbz1hSFIwY0hNNkx5OTNkM2N1WTI5dmJHMWhkR2huWVcxbGN5NWpiMjA%3D&__cpo=1">Games</a></p>
     <p><a href="https://108.181.3.54/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LaGhiQ1BDM3Q2ZzFqVmtQSkRYNGREZTFnVWR5REljMnA2ZHAyaXhtWmxrbTU3cnZmOGowMzkvUlJKTERjZlYyUFVsTHNhQysyLzNIM3JFVC84aXdyRzg9&r=aHR0cHM6Ly8xMDguMTgxLjMuNTQvP2tvPXMmX19jcG89YUhSMGNITTZMeTl6ZEdGeWRDNWtkV05yWkhWamEyZHZMbU52YlE%3D&__cpo=1">Web Browser</a></p>
 </body>
 </html>
 `);
+
 
 
