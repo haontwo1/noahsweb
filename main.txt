@@ -9,10 +9,11 @@ document.write(`
 <body style="background-color: lightblue;">
     <h1 style="color:blue; font-size:50px; font-family:Arial;">Noahs webpage</h1>
     <p><a href="https://208.87.242.51/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LdDNLTzlhYU56L1BvaEFTTytjd0JJM1lvZ1pNUGpQVU83TEVMS21kNUoxTmhYV0FvU0lLZ2lhVExkR0tFSWMzOWFZWHNEYi9JV3o3Uk8yNmlVVzBpMHM9&r=aHR0cHM6Ly8yMDguODcuMjQyLjUxLz9fX2Nwbz1hSFIwY0hNNkx5OTNkM2N1WTI5dmJHMWhkR2huWVcxbGN5NWpiMjA%3D&__cpo=1">Cool Games</a></p>
-    <p><a href="https://108.181.34.45/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LcFR5TzR0R3JpWWc5K1dyMG1TNXZhVzJ5cDJteVBNVkwxUmZFL000ekxmMTZpRW54MU5LbjM5S3oxcWZTMHJta1U0NDA0aFE3N0hXaHBhaUxYaFVZTTA9&r=aHR0cHM6Ly8xMDguMTgxLjM0LjQ1Lz9rbz1zJl9fY3BvPWFIUjBjSE02THk5emRHRnlkQzVrZFdOclpIVmphMmR2TG1OdmJR&__cpo=1">Unblocker Web Browser</a></p>
+    <p><a href="https://208.87.241.169/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LalEvRDRBVk1SR3NiTWgya1R2YkdKdHZ6Rjd2U1ZabEZ4NWJwRktYRkNmajNvTXZRelpRc1dTMWROdExXS09kMEIzMW1SMnpmMmc0Z3pZTkNNT0JzK0U9&r=aHR0cHM6Ly8yMDguODcuMjQxLjE2OS8%2Fa289cyZfX2Nwbz1hSFIwY0hNNkx5OXpkR0Z5ZEM1a2RXTnJaSFZqYTJkdkxtTnZiUQ%3D%3D&__cpo=1">Unblocker Web Browser</a></p>
 </body>
 </html>
 `);
+
 
 
 
