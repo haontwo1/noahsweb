@@ -8,10 +8,11 @@ document.write(`
 </head>
 <body style="background-color: lightblue;">
     <h1 style="color:blue; font-size:50px; font-family:Arial;">Noahs webpage</h1>
-    <p><a href="https://208.87.242.233/__cpi.php?s=UkQ2YXlSaWJuc3ZoeGR2dG04WW9LdFlkLzN2WVN5aGhOWlBzakJsbzI3cTVBMU1RUU0yQi91ZUJHS0VVNnE2ZHZMK3kxaGtyTTJiVlYwMjRheHdMUldTWkdBbW9JVEZ4TzQ0QTBXWTRkRkU9&r=aHR0cHM6Ly8yMDguODcuMjQyLjIzMy8%2Fa289cyZfX2Nwbz1hSFIwY0hNNkx5OXpkR0Z5ZEM1a2RXTnJaSFZqYTJkdkxtTnZiUQ%3D%3D&__cpo=1">Everything Unblocked Web Browser</a></p>
+    <p><a href="https://51.159.194.245/__cpi.php?s=YjdMaGNkQXh5bjh2allsMWRlZXBnR2VsNUdkYy9lc2hqTDg4ejc5Zk9PaDFOd2d5ZGI0dmV1TkFYcG1ibEk3ZVo2U1dQR0x3VXRER2RCc21KdTRIQW1JQUREbVhJSE5FNHA2dUo5dHVaNGs9&r=aHR0cHM6Ly81MS4xNTkuMTk0LjI0NS8%2FX19jcG89YUhSMGNITTZMeTlrZFdOclpIVmphMmR2TG1OdmJR&__cpo=1">Everything Unblocked Web Browser</a></p>
 </body>
 </html>
 `);
+
 
 
 
