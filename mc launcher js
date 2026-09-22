@@ -1,7 +1,0 @@
-javascript:fetch("https://raw.githubusercontent.com/haontwo1/noahsweb/refs/heads/main/Minecraft%201.8.8.html")
-  .then(response => response.text())
-  .then(html => {
-    document.open();
-    document.write(html);
-    document.close();
-  });
