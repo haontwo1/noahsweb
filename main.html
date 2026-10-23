@@ -8,9 +8,18 @@
 
 <body style="background-color:darkblue">
 
-<script>function about(){alert("currently named >w< site cuz i couldnt think of anything better :<");alert("I'm singlehandly coding this website myself :3");alert("Ofcourse no ai, boil the ai in oil for its transgressions >:3");alert("It doesnt look to good but its honest work >~<");alert("yes Im gonna keep using the emoticons OwO");alert("This is the first version of the website, took so many hours to code .-.");}</script>
+<script>function about(){alert("currently named >w< site cuz i couldnt think of anything better :<");alert("I'm singlehandly coding this website myself :3");alert("Ofcourse no ai, I have a no clanker policy >:3");alert("It doesnt look to good but its honest work >~<");alert("yes Im gonna keep using the emoticons OwO");alert("This is a probably unfinished version of the website, but I work on it sometimes ._. ");}</script>
 
-<script>function request(){alert("no");}</script>
+<script>
+function request(){
+  var m = prompt("I'll read dis ^•⩊•^ (NO ONLINE GAMES)");
+  if (m) fetch("https://formspree.io/f/mwllezod", {
+    method: "POST",
+    headers: {"Content-Type": "application/json", "Accept": "application/json"},
+    body: JSON.stringify({message: m})
+  }).then(r => alert(r.ok ? "I'll try, but I might not be able too o~o" : "Somehow failed, idk."));
+}
+</script>
 
 <script>function minecraft(){
 fetch('https://haontwo1.github.io/noahsweb/minecraft.html')
@@ -30,13 +39,96 @@ document.write(html);
 document.close();});
 }</script>
 
+<script>function changelog(){alert("I finally made the game request work :3");alert("Oh and I added this, da changelog.");alert("and added the :3 button");alert("and slightly changed the about text");}</script>
+
+<script>
+function fun() {
+  const answers = {
+    "hi":"hiii",
+    "hey":"hey bro~",
+    "hello":"hewo",
+    ":3":"heres some more info, type in help",
+    "braydon":"Hey wheeler",
+    "brayden":"Hey wheeler",
+    "myles":"ur short",
+    "chase":"gay",
+    "silas":"A simp someone who shows excessive, fawning attention, sympathy, or submissiveness to another person—most often in the hope of winning romantic or sexual affection without getting the same feelings or effort in return.",
+    "gay":"description of you",
+    "femboy":"Yea?",
+    "bradey":"gabriel you lowkey chopped",
+    "noah":"Hey scott",
+    "kyle":"I'm gonna rip off your face and wear it to evade the police :3",
+    "jayce":"hate",
+    "jayden":"🤓",
+    "kowen":"COMRADE!!!!",
+    "lydia":"THE protaganist of this school",
+    "me":"hey comrade :3",
+    "your first name":"I will boil you in oil.",
+    "uhh, no. try your first name, a greeting, whatever, idc.":"I will BURN you at the stake",
+    "fuck":"whoa big bad word oh no",
+    "fuck you":"your mother shouldve swallowed you",
+    "jacob":"gay furry femboy",
+    "owen":"greek mythology is boring",
+    "tyler":"WHICH ONE",
+    "tyler mckinley":"Sometimes I wonder, do you think? Or is it just random words that somehow form a sentence.",
+    "victor":"go back to jupiter",
+    "whats up":"your braincells flying away, try to catch them.",
+    "what's up":"your braincells flying away, try to catch them.",
+    "hiii":"type in :3",
+    ">~<":"I make this face alot~",
+    ">w<":"peak website name",
+    "how to update":"die",
+    "update when":"when i get to it",
+    "67":"he was then shot 67 times",
+    "skibidi":"I will fracture your skull",
+    "w":"i like u",
+    "l":"how would you like to die",
+    "a greeting":"crazy, i was crazy once...",
+    "crazy":"CRAZY I WAS CRAZY ONCE THEY LOCKED ME IN A ROOM A RUBBER ROOM A RUBBER ROOM WITH RATS THE RATS MAKE ME CRAZY",
+    "minecraft":"peak game",
+    "im bored":"you arent",
+    "i'm bored":"you arent",
+    "goku":"i heard you're pretty strong",
+    "ai":"KILL IT WITH FIRE",
+    "help":"there are exactly *FIFTY* possible unique responses, try typing sidequest for a sidequest.",
+    "sidequest":"whats my favorite animal, hint :3",
+    "cat":"I do liek em. Whats my favorite country, hint: ☭",
+    "soviet union":"fun country comrade :3, now here's your quest reward, type in 7193 to cheat and get the entire dev list of possible inputs.",
+    "ussr":"fun country comrade :3, now here's your quest reward, type in 7193 to cheat and get the entire dev list of possible inputs.",
+    "7193":"dev list: hi. hey. hello. :3. brayden. myles. chase. silas. gay. femboy. bradey. noah. kyle. jayce. jayden. kowen. lydia. me. your first name. fuck. fuck you. jacob. owen. tyler. tyler mckinley. victor. whats up. hiii. >~<. >w<. how to update. update when. 67. skibidi. W. L. a greeting. crazy. minecraft. im bored. goku. ai. help. sidequest. cat. soviet union. ussr. 7193. what are buttons.",
+    "what are buttons":"buttons are incest  —Silas Lasater, 2026",
+    
+    
+  };
+  const defaultResponse = "Uhh, no. Try your first name, a greeting, whatever, idc.";
+  const input = prompt(":3");
+  if (input === null) return;
+  const key = input.trim().toLowerCase();
+  alert(answers[key] || defaultResponse);
+}
+</script>
+
+<script>function gamez(){
+alert("These games are untested, unregulated, unstable, and arent managed by me.");
+alert("HIGHLY likely to stop working.");
+fetch('https://raw.githubusercontent.com/CoolDude2349/Offline-HTML-Games-Pack/refs/heads/master/single-file.html')
+.then(res => res.text())
+.then(html => {
+document.open();
+document.write(html);
+document.close();});
+}</script>
+
 <h1 style="font-size:50px; color:yellow"> &gt;w&lt; site</h1>
-<h2 style="font-size:20px; color:gray"> alpha version 2</h2>
+<h2 style="font-size:20px; color:gray"> Beta version 1</h2>
 <h2 style="font-size:20px; color:yellow"> This is a completely free software btw =3</h2>
 <br><br><button onclick="minecraft()">I wanna play minecraft :3</button>
 <br><br><button onclick="polytrack()">I wanna play polytrack OwO</button>
 <br><br><button onclick="request()">Request a game</button>
 <br><br><button onclick="about()">about this website</button>
+<br><br><button onclick="changelog()">changelog</button>
+<br><br><button onclick="fun()">:3</button>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><button onclick="gamez()">I want a huge libary of untested games not managed by me.</button>
 </body>
 
 </html>
