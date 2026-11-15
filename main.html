@@ -22,9 +22,8 @@ function request(){
 </script>
 
 <script>function minecraft(){
-alert("Warning: May take multiple minutes to load. DO NOT CLICK MULTIPLE TIMES!");
-alert("Hey I FINALLY updated minecraft to latest version!! And I added multiplayer support for fun :3");
-alert("Lastly, if it keeps crashing when attempting to make a world, change your render distance to 2 and try again.");
+alert("May take multiple minutes to load. DO NOT CLICK MULTIPLE TIMES!");
+alert("If it keeps crashing, change your render distance or play on the server.");
 fetch('https://haontwo1.github.io/noahsweb/minecraft.html')
 .then(res => res.text())
 .then(html => {
@@ -33,6 +32,15 @@ document.write(html);
 document.close();});
 }</script>
 
+<script>function minecraft_old(){
+fetch('https://haontwo1.github.io/noahsweb/minecraft_old.html')
+.then(res => res.text())
+.then(html => {
+document.open();
+document.write(html);
+document.close();});
+}</script>
+  
 <script>function polytrack(){
 fetch('https://haontwo1.github.io/noahsweb/polytrack.html')
 .then(res => res.text())
@@ -42,7 +50,7 @@ document.write(html);
 document.close();});
 }</script>
 
-<script>function changelog(){alert("Minecraft updated to latest version. Minor text changes. Various bug fixes including multiplayer fix for MC.");}</script>
+<script>function changelog(){alert("Added 1.8 back, text changes.");}</script>
 
 <script>
 function fun() {
@@ -55,7 +63,7 @@ function fun() {
     "brayden":"Hey wheeler",
     "myles":"ur short",
     "chase":"gay",
-    "silas":"A simp someone who shows excessive, fawning attention, sympathy, or submissiveness to another person—most often in the hope of winning romantic or sexual affection without getting the same feelings or effort in return.",
+    "silas":"A simp is someone who shows excessive, fawning attention, sympathy, or submissiveness to another person—most often in the hope of winning romantic or sexual affection without getting the same feelings or effort in return.",
     "gay":"description of you",
     "femboy":"Yea?",
     "bradey":"gabriel you lowkey chopped",
@@ -98,9 +106,9 @@ function fun() {
     "cat":"I do liek em. Whats my favorite country, hint: ☭",
     "soviet union":"fun country comrade :3, now here's your quest reward, type in 7193 to cheat and get the entire dev list of possible inputs.",
     "ussr":"fun country comrade :3, now here's your quest reward, type in 7193 to cheat and get the entire dev list of possible inputs.",
-    "7193":"dev list: hi. hey. hello. :3. brayden. myles. chase. silas. gay. femboy. bradey. noah. kyle. jayce. jayden. kowen. lydia. me. your first name. fuck. fuck you. jacob. owen. tyler. tyler mckinley. victor. whats up. hiii. >~<. >w<. how to update. update when. 67. skibidi. W. L. a greeting. crazy. minecraft. im bored. goku. ai. help. sidequest. cat. soviet union. ussr. 7193. what are buttons.",
+    "7193":"dev list: hi. hey. hello. :3. brayden. myles. chase. silas. gay. femboy. bradey. noah. kyle. jayce. jayden. kowen. lydia. daniel. me. your first name. fuck. fuck you. jacob. owen. tyler. tyler mckinley. victor. whats up. hiii. >~<. >w<. how to update. update when. 67. skibidi. W. L. a greeting. crazy. minecraft. im bored. goku. ai. help. sidequest. cat. soviet union. ussr. 7193. what are buttons.",
     "what are buttons":"buttons are incest  —Silas Lasater, 2026",
-    
+    "daniel":"Stop begging for free mc updates ON A SCHOOL IPAD!!"
     
   };
   const defaultResponse = "Uhh, no. Try your first name, a greeting, whatever, idc.";
@@ -112,14 +120,16 @@ function fun() {
 </script>
 
 <h1 style="font-size:50px; color:yellow"> &gt;w&lt; site</h1>
-<h2 style="font-size:20px; color:gray"> Beta version 2</h2>
+<h2 style="font-size:20px; color:gray"> Beta version 3</h2>
 <h2 style="font-size:20px; color:yellow"> This is a completely free software btw =3</h2>
-<br><br><button onclick="minecraft()">MINECRAFT 26.3!!! O.O</button>
-<br><br><button onclick="polytrack()">Polytrack</button>
+<br><br><button onclick="minecraft()">Minecraft 26.3 (new and has multiplayer support)</button>
+<br><br><button onclick="minecraft_old()">Minecraft 1.8.8 (old but doesnt crash)</button>
+<br><br><button onclick="polytrack()">Polytrack 0.5.2</button>
 <br><br><button onclick="request()">Give Feedback</button>
 <br><br><button onclick="about()">about this website</button>
 <br><br><button onclick="changelog()">changelog</button>
 <br><br><button onclick="fun()">:3</button>
+<br><br><button onclick="code()">Extras (not added yet)</button>
 </body>
 
 </html>
